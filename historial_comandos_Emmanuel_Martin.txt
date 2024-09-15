@@ -1,0 +1,316 @@
+ls
+cd repogit/
+ls
+git status
+cd UTN-FRA_SO_onBording/
+git status
+cd..
+cd ..
+ls
+ssh -V
+git clone git@github.com:emmanuelmartindavid/repo_martin.git
+ls ~/.ssh
+ssh-keygen -t ed25519
+ls -l
+cd ..
+ls -l
+ls -la
+cd .ssh
+ls
+ls -l
+cat id_ed25519.pub
+cd ..
+ls
+cd re
+cd repogit/
+ls
+git clonee https://github.com/emmanuelmartindavid/repo_martin.git
+git clone git@github.com:emmanuelmartindavid/repo_martin.git
+ls
+cd repo_martin/
+ls
+nano hola.txt
+git status
+git add .
+git commit -m "prueba ss"
+git config --global user.email "emmanuel.david.martin77@gmail.com"
+git config --global user.name "emmanuelmartindavid"
+git status
+git commit -m "prueba sss"
+git push
+cd ..
+git clone git@github.com:emmanuelmartindavid/TP_AySO.git
+ls
+cd TP_AySO/
+ls
+cat datos_usuario.txt 
+cat README.md 
+cd ..
+ls
+cd ..
+/proc/cpuinfo | grep "model name"
+cat /proc/cpuinfo | grep "model name"
+cat head /proc/cpuinfo | grep "model name"
+cat /proc/cpuinfo | grep head "model name" 
+cat /proc/cpuinfo | grep "model name" | head 
+cat /proc/cpuinfo | grep "model name" | head n1
+cat /proc/cpuinfo | grep "model name" | head -n 
+cat /proc/cpuinfo | grep "model name" | head -n 1
+cd repogit/
+cd TP_AySO/
+ls
+/proc/cpuinfo | grep "model name" | head -n 1 >> datos_usuario.txt 
+cat /proc/cpuinfo | grep "model name" | head -n 1 >> datos_usuario.txt 
+ls
+cat datos_usuario.txt 
+git status
+git add .
+git commit -m "feat: Aniadiendo informacion de CPU"
+git status
+man grep
+man sort
+cat /etc/passwd
+cat /etc/passwd | grep -v "nologin"
+cat /etc/passwd | grep -v "nologin" | head -n1
+cat /etc/passwd | grep -v "nologin" | head -n10
+man sort
+cat /etc/passwd | grep -v "nologin" | head -n10
+man sort
+cat sort -t: -k7 /etc/passwd | grep -v "nologin" | head -n10
+cat sort -t":" -k7 /etc/passwd | grep -v "nologin" | head -n10
+cat /etc/passwd | grep -v "nologin" | head -n10 | sort -t: -k7
+cat /etc/passwd | grep -v "nologin" | head -n10
+cat /etc/passwd | grep -v "nologin" | head 
+cat /etc/passwd | grep -v "nologin" | head -n10 | sort -t: -k7
+head /proc/cpuinfo | grep "model name"
+cat /etc/passwd | grep -v "nologin" | head -n10 | sort -t: -k7
+cat /etc/passwd | grep -v "nologin" | head -n10 | sort -t: -k7 > lista_ordenada.txt
+ls
+cat lista_ordenada.txt 
+ls
+git status
+git add .
+git commiy -m "ADD: Listado de usuarios ordenada"
+git commit -m "ADD: Listado de usuarios ordenada"
+git status
+apropos dump
+apropos "dump traffic"
+apropos "dump"
+apropos dump
+apropos capture
+apropos network
+man tcpdump
+apropos "dump traffic"
+apropos "dump"
+cd ..
+apropos "dump traffic"
+apropos "dump"
+apropos dump traffic
+apropos network
+apropos capture
+ls
+cd repogit/
+ls
+cd TP_AySO/
+git status
+apropos "dump traffic" > comando_dump_net.txt
+ls
+cat comando_dump_net.txt 
+apropos "dump traffic" > comando_dump_net.txt 2>&1
+cat comando_dump_net.txt 
+apropos "dump traffic" > comando_dump_net.txt 2>&1 || echo "No encuentra resultado 'dump traffic'" > comando_dump_net.txt
+cd co
+cat comando_dump_net.txt 
+apropos "dump traffic" > comando_dump_net.txt 2>&1
+cat comando_dump_net.txt 
+apropos "dump traffic" > comando_dump_net.txt 2>&1 || echo "No encuentra resultado 'dump traffic'" >> comando_dump_net.txt
+cat comando_dump_net.txt 
+echo apropos "dump traffic" >> comando_dump_net.txt 
+cat comando_dump_net.txt 
+tcpdump >> comando_dump_net.txt 
+echo "tcpdump" >> comando_dump_net.txt
+cat comando_dump_net.txt 
+git status
+git add .
+git commit -m "ADD: Comando para capturar y analizar trafico de red. Dejo aclarado que el comando apropos no encuentra lo buscado"
+git status
+man -k "dump traffic"
+whatis tcpdump
+locate dump
+wich tcpdump
+cd ..
+wich tcpdump
+which dump
+type tcpdump
+mandb
+apropos dump
+apropos "dump traffic"
+apropos tcpdump
+man tcpdump
+type tcpdump
+cd repogit/
+cd TP_AySO/
+echo "type tcpdump" >> comando_dump_net.txt 
+type tcpdump 2>&1 >> comando_dump_net.txt 
+cat comando_dump_net.txt 
+git status
+git commit -m "ADD: Agrego el comando type tcpdump, el cual indica su ruta aunque apropos no lo encuentre"
+git add .
+git status
+git commit -m "ADD: Agrego el comando type tcpdump, el cual indica su ruta aunque apropos no lo encuentre"
+git status
+cat << END >> README.md
+Alumno: <Emmanuel David Martin>
+Division: <115>
+Turno: <Mañana>
+END
+
+cat README.md 
+nano README.md 
+cat README.md 
+git status
+git add .
+git commit -m "ADD: Tecnica de HereDoc y redireccionamiento para editar el README.md con los datos solicitados"
+git status
+history -a $HOME/.bash_history
+ls -la $HOME
+history -a $HOME/.bash_history
+cp $HOME/.bash_history Historial_comandos.txt
+cat Historial_comandos.txt 
+git status
+git add .
+git commit -m "ADD: Copiado y creacion de txt con historial de comandos"
+ls
+mv Historial_comandos.txt Historial_comandos_Emmanuel_martin.txt 
+ls
+git status
+cat Historial_comandos_Emmanuel_martin.txt 
+git add .
+git commit -m "ADD: Cambio de nombre de archivo de historial, agrego mi nombre"
+git push
+cat README.md 
+nano README.md 
+cat << END >> README.md 
+Alumno: <Emmanuel_David_Martin>
+Division: <115>
+Turno: <Mañana>
+END
+
+cat README.md 
+nano README.md 
+cat README.md 
+git status
+git add .
+git commit -m "EDIT: Edicion de README, por algun motivo no figuraba mi nombre"
+git push
+cd ..
+exit
+exit
+ls
+cd repogit/
+ls
+pwd
+ls -l
+ls -la
+cat /etc/os-release
+man grep
+grep -i home_url /etc/os-release
+grep -i "home_url" /etc/os-release
+grep -i "HOME_URL /etc/os-release
+"
+history
+ls
+cd repogit/
+cd TP_AySO/
+ls
+cat README.md 
+ls
+man grep
+grep -i "home_url" /etc/os-release
+grep -i home_url /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+whoami
+id -un
+echo "Usuario=$(whomai)" > datos_usuario.txt
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+cat datos_usuario.txt 
+git status
+git add .
+git commit -m "ADD: agregado primer ejercicio sobre datos_usuarios.txt"
+git status
+cat /proc/cpuinfo | grep "model name" | head -n1
+cat /proc/cpuinfo | grep "model name" | head 
+cat /proc/cpuinfo | grep "model name" | head -n1 >> datos_usuario.txt 
+cat datos_usuario.txt 
+git status
+git add .
+git commit -m "feat: Añadiendo informacion de CPU"
+cat /etc/passwd
+man grep
+cat /etc/passwd | grep -v "nologin"
+man sort
+cat /etc/passwd | grep -v "nologin" | head -n10 | sort -t: -k7
+cat /etc/passwd | grep -v nologin | head -n10 | sort -t: -k7
+cat /etc/passwd | grep -v nologin | head -n10 | sort -t: -k7 > lista_ordenada.txt
+ls
+cat lista_ordenada.txt 
+git status
+git add .
+git commit -m "ADD: Lista de usuarios ordenada"
+apropos dump traffic
+apropos "dump traffic"
+man apropos
+apropos "network"
+apropos "dump traffic" > comando_dump_traffic.txt
+ls
+cat comando_dump_traffic.txt 
+echo apropos "dump traffic" >> comando_dump_traffic.txt 
+cat comando_dump_traffic.txt 
+git status
+git add .
+git commit -m "ADD: Comando para capturar y analizar el trafico de red"
+cat << END >> README.md 
+Alumno: <Emmanuel_David_Martin>
+Division: <115>
+Turno: <Mañana>
+END
+
+nano README.md 
+git status
+git add .
+git commit -m "ADD: Tecnica de HereDoc y redireccionamiento para editar el README.md con los datos solicitados"
+history
+history -a $HOME/.bash_history
+ls -la $HOME
+history -a $HOME/.bash_history
+cp $HOME/.bash_history historial_comandos.txt
+ls
+cat historial_comandos.txt 
+git status
+git add .
+git commit -m "ADD: Fuerza escritura de historial de comandos y creacion de historial de comandos.txt"
+mv historial_comandos.txt historial_comandos_Emmanuel_martin.txt
+ls
+history -a $HOME/.bash_history
+cp $HOME/.bash_history historial_comandos_Emmanuel_martin.txt
+cat historial_comandos_Emmanuel_martin.txt 
+git status
+git add .
+git commit -m "feat: cambio de nombre de archivo historial de comandos.txt"
+git push
+git status
+cd ..
+exit
+ls
+cd repogit/
+ls
+cd TP_AySO/
+pwd
+cat /etc/os-release
+man grep 
+grep -i home_url /etc/os-release 
+history
+grep -i home_url /etc/os-release 
+grep /etc/os-release | head -n1 
